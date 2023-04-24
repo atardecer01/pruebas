@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Button from "../components/button";
+import Register from "../components/registerModal";
 
 export default function LoginPage() {
   return (
@@ -79,14 +80,7 @@ export default function LoginPage() {
             </label>
           </div>
 
-          <div className="text-sm">
-            <a
-              href="#"
-              className="font-medium text-indigo-600 hover:text-indigo-500"
-            >
-              Registrate
-            </a>
-          </div>
+          <Register/>
         </div>
       </div>
     </div>
