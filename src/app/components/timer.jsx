@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { green } from 'tailwindcss/colors';
 
 const Timer = ({ hour, min, sec, borderColor, textColor }) => {
+
+    
 
     return (
         <div className="flex justify-center item gap-4 mb-12">
