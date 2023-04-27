@@ -1,6 +1,7 @@
 'use client'
 import React from "react";
 import { useState } from "react";
+import axios from "axios";
 import ExitButton from "../components/exitButton";
 
 export default function Modal() {
@@ -23,7 +24,7 @@ export default function Modal() {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if (form.nombre === '' || form.email === '' || form.password === '' || form.confirmPassword === '') {
             setErrorMessage("Por favor llene todos los campos");
@@ -36,6 +37,18 @@ export default function Modal() {
 
         setErrorMessage("");
         // Aquí se envia el formulario al servidor
+
+        const nombre = form.nombre;
+        const email = form.email;
+        const password = form.password;
+
+        try {
+            const url = "http://localhost:4000/api/usuarios"
+            const respuesta = await axios.post(url,{nombre, password,email});
+            console.log(respuesta);
+        } catch (error) {
+            console.log(error)
+        }
     };
 
     return (
