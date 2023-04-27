@@ -1,5 +1,6 @@
 import express from "express"
 import dotenv from 'dotenv';
+import cors from 'cors';
 import conectarDB from "./config/db.js";
 import usuarioRoutes from './routes/usuarioRoutes.js'
 
@@ -10,6 +11,22 @@ app.use(express.json());
 dotenv.config();
 
 conectarDB();
+
+const dominiosPermitidos = ['http://localhost:3000'];
+
+const corsOptions = {
+    origin: function(origin, callback) {
+        if (dominiosPermitidos.indexOf(origin) !== -1) {
+            //El origen del request esta permitido
+            callback(null, true);
+        }
+        else {
+            callback(new Error('No permitido por CORS'))
+        }
+    },
+}
+
+app.use(cors(corsOptions))
 
 app.use("/api/usuarios", usuarioRoutes);
 
