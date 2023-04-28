@@ -156,32 +156,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/app/SetTime/page.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/SetTime/page.jsx",
-        "chunks": [
-          "app/SetTime/page:app/SetTime/page"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/SetTime/page.jsx",
-        "chunks": [
-          "app/SetTime/page:app/SetTime/page"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/SetTime/page.jsx",
-        "chunks": [
-          "app/SetTime/page:app/SetTime/page"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
     "(app-client)/./src/app/StudyPanel/page.jsx": {
       "*": {
         "id": "(sc_client)/./src/app/StudyPanel/page.jsx",
@@ -203,6 +177,58 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/app/StudyPanel/page.jsx",
         "chunks": [
           "app/StudyPanel/page:app/StudyPanel/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/login/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/login/page.jsx",
+        "chunks": [
+          "app/login/page:app/login/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/login/page.jsx",
+        "chunks": [
+          "app/login/page:app/login/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/login/page.jsx",
+        "chunks": [
+          "app/login/page:app/login/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/SetTime/page.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/SetTime/page.jsx",
+        "chunks": [
+          "app/SetTime/page:app/SetTime/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/SetTime/page.jsx",
+        "chunks": [
+          "app/SetTime/page:app/SetTime/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/SetTime/page.jsx",
+        "chunks": [
+          "app/SetTime/page:app/SetTime/page"
         ],
         "name": "default",
         "async": false
@@ -455,30 +481,6 @@ self.__RSC_MANIFEST={
     "name": "Providers",
     "async": false
   },
-  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\SetTime\\page.jsx": {
-    "id": "(app-client)/./src/app/SetTime/page.jsx",
-    "chunks": [
-      "app/SetTime/page:app/SetTime/page"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\SetTime\\page.jsx#": {
-    "id": "(app-client)/./src/app/SetTime/page.jsx",
-    "chunks": [
-      "app/SetTime/page:app/SetTime/page"
-    ],
-    "name": "",
-    "async": false
-  },
-  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\SetTime\\page.jsx#default": {
-    "id": "(app-client)/./src/app/SetTime/page.jsx",
-    "chunks": [
-      "app/SetTime/page:app/SetTime/page"
-    ],
-    "name": "default",
-    "async": false
-  },
   "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\StudyPanel\\page.jsx": {
     "id": "(app-client)/./src/app/StudyPanel/page.jsx",
     "chunks": [
@@ -499,6 +501,54 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./src/app/StudyPanel/page.jsx",
     "chunks": [
       "app/StudyPanel/page:app/StudyPanel/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\login\\page.jsx": {
+    "id": "(app-client)/./src/app/login/page.jsx",
+    "chunks": [
+      "app/login/page:app/login/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\login\\page.jsx#": {
+    "id": "(app-client)/./src/app/login/page.jsx",
+    "chunks": [
+      "app/login/page:app/login/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\login\\page.jsx#default": {
+    "id": "(app-client)/./src/app/login/page.jsx",
+    "chunks": [
+      "app/login/page:app/login/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\SetTime\\page.jsx": {
+    "id": "(app-client)/./src/app/SetTime/page.jsx",
+    "chunks": [
+      "app/SetTime/page:app/SetTime/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\SetTime\\page.jsx#": {
+    "id": "(app-client)/./src/app/SetTime/page.jsx",
+    "chunks": [
+      "app/SetTime/page:app/SetTime/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\Marcela\\OneDrive\\Documentos\\2023-1\\Desarrollo 2\\david\\desarrollo-lawatty\\frontend\\src\\app\\SetTime\\page.jsx#default": {
+    "id": "(app-client)/./src/app/SetTime/page.jsx",
+    "chunks": [
+      "app/SetTime/page:app/SetTime/page"
     ],
     "name": "default",
     "async": false
