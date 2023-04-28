@@ -22,7 +22,7 @@ const registrar = async (req, res) => {
     } catch (error) {
         console.log(error)
     }
-    res.json({msg: 'Registrando usuario...'}); 
+   // res.json({msg: 'Registrando usuario...'}); 
 };
 
 const perfil = (req, res) => {

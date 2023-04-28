@@ -10,15 +10,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/layout.js"
     ],
-    "/SetTime/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/SetTime/page.js"
-    ],
     "/StudyPanel/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/StudyPanel/page.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/page.js"
+    ],
+    "/SetTime/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/SetTime/page.js"
     ]
   }
 }
