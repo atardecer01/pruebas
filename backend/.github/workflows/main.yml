@@ -23,5 +23,3 @@ jobs:
     - name: Run tests
       run: npm test
 
-    - name: image docker
-      run: docker build -t backendImages .
