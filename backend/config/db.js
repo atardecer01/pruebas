@@ -14,6 +14,7 @@ const conectarDB = async() => {
         console.log(`error: ${error.message}`);
         process.exit(1);
     }
+
 };
 
 export default conectarDB;
