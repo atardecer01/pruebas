@@ -58,21 +58,24 @@ export default function Time() {
              cambioEstado={cambiarE}>
            <Enca> 
            <div>
-            <h1> Tiempo de estudio(min)  </h1>
+            <h1> Tiempo de estudio  </h1>
             <input type="text" placeholder= '30'></input>
-            
            </div>
            <div>
-            <h1> Tiempo de estudio(min)  </h1>
+            <h1> Tiempo de descanso  </h1>
             <input type="text" placeholder= '25' ></input>
            </div>
            <div>
-            <h1> Tiempo de estudio  </h1>
-            <input type="text" placeholder= '25'></input>
+            <h1> Intervalo de descansos  </h1>
+            <input type="text" placeholder= '25' ></input>
            </div>
            <div>
-            <h1> Tiempo de estudio  </h1>
-            <input type="text" placeholder= '30'></input>
+            <h1> Botón descanso  </h1>
+            <input type="checkbox" placeholder= '25'></input>
+           </div>
+           <div>
+            <h1> Botón pausa necesaria  </h1>
+            <input type="checkbox" placeholder= '30'></input>
             
            </div>
             

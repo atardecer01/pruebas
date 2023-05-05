@@ -33,7 +33,7 @@ export const answersSlice = createSlice({
       }
     },
   })
-  
+
   // Action creators are generated for each case reducer function
   export const {setLastInterface, setSessionTime, setTimeSystem, setBook, setBookPage
   ,setCurrentInfoPrincipalPage} = answersSlice.actions
