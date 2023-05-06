@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import ExitButton from "../components/exitButton";
+import swal from "sweetalert";
 
 export default function Modal() {
     const [showModal, setShowModal] = useState(false);
@@ -44,10 +45,24 @@ export default function Modal() {
 
         try {
             const url = "http://localhost:4000/api/usuarios"
-            const respuesta = await axios.post(url,{nombre, password,email});
-            console.log(respuesta);
+            const respuesta = await axios.post(url, { nombre, password, email });
+            swal({
+                title: "Registro exitoso",
+                icon: "success"
+            })
+            setShowModal(false);
+            setForm({
+                nombre: '',
+                email: '',
+                password: '',
+                confirmPassword: ''
+            });
         } catch (error) {
-            console.log(error)
+            swal({
+                title: error.response.data.msg,
+                icon: "warning",
+                button: "Aceptar"
+            })
         }
     };
 
