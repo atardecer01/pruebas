@@ -21,4 +21,5 @@ jobs:
       run: npm ci
 
     - name: Run tests
-      run: npm test --prefix Frontend/
+      working-directory: frontend
+      run: npm test 
