@@ -20,8 +20,14 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Run tests
+    - name: Run tests frontend
       run: |
         cd frontend    # Cambia al directorio "frontend"
+        npm install 
+        npm test       # Ejecuta los tests
+
+    - name: Run tests backend
+      run: |
+        cd backend    # Cambia al directorio "frontend"
         npm install 
         npm test       # Ejecuta los tests
