@@ -30,4 +30,10 @@ jobs:
       run: |
         cd backend    # Cambia al directorio "frontend"
         npm install 
-        npm test       # Ejecuta los tests
+        npm test --coverage      # Ejecuta los tests
+
+    - name: SonarCloud Scan
+      uses: SonarSource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
