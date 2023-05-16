@@ -23,4 +23,5 @@ jobs:
     - name: Run tests
       run: |
         cd frontend    # Cambia al directorio "frontend"
+        npm install --prefix frontend
         npm test       # Ejecuta los tests
