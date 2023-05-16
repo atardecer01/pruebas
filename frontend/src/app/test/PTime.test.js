@@ -63,7 +63,7 @@ test('closes modal when clicking on overlay', () => {
   fireEvent.click(overlay);
   
   expect(cambioEstado).toHaveBeenCalledWith(false);
- // expect(screen.queryByText(/Los tiempos asignados son/i)).not.toBeInTheDocument();
+  //expect(screen.queryByText(/Los tiempos asignados son/i)).not.toBeInTheDocument();
 });
 
 
